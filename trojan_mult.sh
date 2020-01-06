@@ -147,7 +147,7 @@ EOF
 	#设置伪装站
 	rm -rf /usr/share/nginx/html/*
 	cd /usr/share/nginx/html/
-	wget https://github.com/atrandys/v2ray-ws-tls/raw/master/web.zip
+	wget https://raw.githubusercontent.com/wangn9900/tvonekey/master/web.zip
     	unzip web.zip
 	systemctl restart nginx.service
 	#申请https证书
@@ -164,7 +164,7 @@ EOF
 	wget https://github.com/trojan-gfw/trojan/releases/download/v1.14.0/trojan-1.14.0-linux-amd64.tar.xz
 	tar xf trojan-1.*
 	#下载trojan客户端
-	wget https://github.com/atrandys/trojan/raw/master/trojan-cli.zip
+	wget https://raw.githubusercontent.com/wangn9900/tvonekey/master/trojan-cli.zip
 	unzip trojan-cli.zip
 	cp /usr/src/trojan-cert/fullchain.cer /usr/src/trojan-cli/fullchain.cer
 	trojan_passwd=$(cat /dev/urandom | head -1 | md5sum | head -c 8)
@@ -279,7 +279,9 @@ EOF
 	green "2、将下载的压缩包解压，打开文件夹，打开start.bat即打开并运行Trojan客户端"
 	green "3、打开stop.bat即关闭Trojan客户端"
 	green "4、Trojan客户端需要搭配浏览器插件使用，例如switchyomega等"
-	green "======================================================================"
+	green "5、mac端config文件请自行修改ip和密码保存，点击允许配合v2ray的socks代理即可"
+        green "6、不要忘记给王晓峰一个订阅支持哦！
+	green "======================================================================
 	else
         red "================================"
 	red "https证书没有申请成果，本次安装失败"
@@ -316,10 +318,11 @@ function remove_trojan(){
 start_menu(){
     clear
     green " ===================================="
-    green " 介绍：一键安装trojan      "
+    green " 介绍：一键安装trojan"
+    green " 作者：王晓峰"    
     green " 系统：centos7+/debian9+/ubuntu16.04+"
-    green " 网站：www.atrandys.com              "
-    green " Youtube：Randy's 堡垒                "
+    green " 电报群：https://t.me/wxfkjfx"
+    green " Youtube：https://www.youtube.com/channel/UC1fMNXf1PdiEy88xkYurHWw/videos"
     green " ===================================="
     echo
     green " 1. 安装trojan"
