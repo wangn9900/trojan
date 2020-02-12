@@ -325,13 +325,13 @@ function bbr_boost_sh(){
 
 start_menu(){
     clear
-    yellow " ===================================="
+    green " ===================================="
     green " 介绍：一键安装trojan三合一脚本"
     green " 作者：atrandys，王晓峰加入了新版bbr加速（内含bbr2测试版）"    
     green " 系统：centos7+/debian9+/ubuntu16.04+"
     green " 电报群：https://t.me/wxfdbq"
     green " Youtube：https://www.youtube.com/c/王晓峰"
-    yellow " ===================================="
+    green " ===================================="
     echo
     blue " ===================================="
     green "  1. 安装trojan"
