@@ -3,6 +3,9 @@
 blue(){
     echo -e "\033[34m\033[01m$1\033[0m"
 }
+yellow(){
+    echo -e "\033[34m\033[01m$1\033[0m"
+}
 green(){
     echo -e "\033[32m\033[01m$1\033[0m"
 }
@@ -321,18 +324,20 @@ function bbr_boost_sh(){
 
 start_menu(){
     clear
-    green " ===================================="
+    yellow " ===================================="
     green " 介绍：一键安装trojan三合一脚本"
     green " 作者：atrandys，王晓峰加入了新版bbr加速（内含bbr2测试版）"    
     green " 系统：centos7+/debian9+/ubuntu16.04+"
     green " 电报群：https://t.me/wxfdbq"
     green " Youtube：https://www.youtube.com/c/王晓峰"
-    green " ===================================="
+    yellow " ===================================="
     echo
+    yellow " ===================================="
     green "  1. 安装trojan"
-    green "  2. 安装四合一BBRPLUS加速"
+    yellow "  2. 安装四合一BBRPLUS加速"
     red "  3. 卸载trojan"
     blue "  0. 退出脚本"
+    yellow " ===================================="
     echo
     read -p "请输入数字:" num
     case "$num" in
