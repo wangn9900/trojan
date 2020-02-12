@@ -332,7 +332,7 @@ start_menu(){
     echo
     green " 1. 安装trojan"
     yellow " 2. 安装 4 IN 1 BBRPLUS加速脚本"
-    red " 2. 卸载trojan"
+    red " 3. 卸载trojan"
     blue " 0. 退出脚本"
     echo
     read -p "请输入数字:" num
@@ -341,8 +341,10 @@ start_menu(){
     install_trojan
     ;;
     2)
-    remove_trojan 
+    bbr_boost_sh
     ;;
+    3)
+    remove_trojan
     0)
     exit 1
     ;;
