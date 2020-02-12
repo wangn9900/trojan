@@ -330,7 +330,7 @@ start_menu(){
     green " ===================================="
     echo
     green "  1. 安装trojan"
-    green "  2. 安装 4 IN 1 BBRPLUS加速"
+    green "  2. 安装四合一BBRPLUS加速"
     red "  3. 卸载trojan"
     blue "  0. 退出脚本"
     echo
