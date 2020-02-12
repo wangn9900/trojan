@@ -315,17 +315,23 @@ function remove_trojan(){
     green "trojan删除完毕"
     green "=============="
 }
+
+function bbr_boost_sh(){
+    bash <(curl -L -s -k "https://github.com/ylx2016/Linux-NetSpeed/releases/download/sh/tcp.sh")
+}
+
 start_menu(){
     clear
     green " ===================================="
-    green " 介绍：一键安装trojan"
-    green " 作者：王晓峰"    
+    green " 介绍：一键安装trojan三合一脚本"
+    green " 作者：atrandys，王晓峰加入了新版bbr加速（内含bbr2测试版）"    
     green " 系统：centos7+/debian9+/ubuntu16.04+"
-    green " 电报群：https://t.me/wxfkjfx"
-    green " Youtube：https://www.youtube.com/channel/UC1fMNXf1PdiEy88xkYurHWw/videos"
+    green " 电报群：https://t.me/wxfdbq"
+    green " Youtube：https://www.youtube.com/c/王晓峰"
     green " ===================================="
     echo
     green " 1. 安装trojan"
+    yellow " 2. 安装 4 IN 1 BBRPLUS加速脚本"
     red " 2. 卸载trojan"
     blue " 0. 退出脚本"
     echo
