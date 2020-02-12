@@ -279,8 +279,7 @@ EOF
 	green "2、将下载的压缩包解压，打开文件夹，打开start.bat即打开并运行Trojan客户端"
 	green "3、打开stop.bat即关闭Trojan客户端"
 	green "4、Trojan客户端需要搭配浏览器插件使用，例如switchyomega等"
-	green "5、mac端config文件请自行修改ip和密码保存，点击允许配合v2ray的socks代理即可"
-        green "6、不要忘记给王晓峰一个订阅支持哦！
+	green "5、电报群：https://t.me/wxfdbq"
 	green "======================================================================
 	else
         red "================================"
@@ -331,7 +330,7 @@ start_menu(){
     green " ===================================="
     echo
     green "  1. 安装trojan"
-    green "  2. 安装 4 IN 1 BBRPLUS加速脚本"
+    green "  2. 安装 4 IN 1 BBRPLUS加速"
     red "  3. 卸载trojan"
     blue "  0. 退出脚本"
     echo
