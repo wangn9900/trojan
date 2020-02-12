@@ -339,11 +339,8 @@ start_menu(){
     case "$num" in
     1)
     install_trojan
-    ;;
+    ;;   
     2)
-    bbr_boost_sh
-    ;;
-    3)
     remove_trojan
     0)
     exit 1
