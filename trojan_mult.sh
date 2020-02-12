@@ -333,12 +333,12 @@ start_menu(){
     green " Youtube：https://www.youtube.com/c/王晓峰"
     yellow " ===================================="
     echo
-    yellow " ===================================="
+    blue " ===================================="
     green "  1. 安装trojan"
     yellow "  2. 安装四合一BBRPLUS加速"
     red "  3. 卸载trojan"
     blue "  0. 退出脚本"
-    yellow " ===================================="
+    blue " ===================================="
     echo
     read -p "请输入数字:" num
     case "$num" in
