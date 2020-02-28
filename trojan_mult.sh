@@ -9,6 +9,11 @@ green(){
 red(){
     echo -e "\033[31m\033[01m$1\033[0m"
 }
+yellow(){
+    echo -e "\034[31m\033[01m$1\033[0m"
+    
+}    
+
 #copy from 秋水逸冰 ss scripts
 if [[ -f /etc/redhat-release ]]; then
     release="centos"
@@ -451,13 +456,13 @@ start_menu(){
     red " *若是第二次使用脚本，请先执行卸载trojan"
     green " ======================================="
     echo
-    red " ======================================="
+    yellow " ======================================="
     green " 1. 安装trojan"
     red " 2. 卸载trojan"
     green " 3. 修复证书"
     green " 4. 安装BBR-PLUS加速4合一脚本"
     blue " 0. 退出脚本"
-    red " ======================================="
+    yellow " ======================================="
     echo
     read -p "请输入数字:" num
     case "$num" in
