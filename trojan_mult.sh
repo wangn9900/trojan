@@ -11,7 +11,6 @@ red(){
 }
 yellow(){
     echo -e "\034[31m\033[01m$1\033[0m"
-    
 }    
 
 #copy from 秋水逸冰 ss scripts
@@ -444,10 +443,10 @@ function bbr_boost_sh(){
 start_menu(){
     clear
     green " ===================================="
-    green " Trojan 一键安装自动脚本 2020-3-1 更新      "
+    green " Trojan 一键安装自动脚本 2020-2-16 更新      "
     green " 系统：centos7+/debian9+/ubuntu16.04+"
     green " 网站：www.wxf2088.xyz "
-    green " 此脚本为 atrandys 的，集成BBRPLUS加速及MAC客户端 "
+    green " 此脚本为 atrandys 的，感谢作者的辛苦付出 "
     green " Youtube：王晓峰                "
     green " ===================================="
     blue " 声明："
