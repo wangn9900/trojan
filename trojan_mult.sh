@@ -10,7 +10,7 @@ red(){
     echo -e "\033[31m\033[01m$1\033[0m"
 }
 yellow(){
-    echo -e "\034[31m\033[01m$1\033[0m"
+    echo -e "\033[33m\033[01m$1\033[0m"
 }    
 
 #copy from 秋水逸冰 ss scripts
