@@ -440,6 +440,11 @@ function bbr_boost_sh(){
     wget -N --no-check-certificate "https://github.com/ylx2016/Linux-NetSpeed/releases/download/sh/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 }
 
+function trojan_boost_sh(){
+    [ -f "tcp.sh" ] && rm -rf ./tcp.sh
+    wget https://raw.githubusercontent.com/atrandys/trojan/master/trojan4balance.sh && chmod +x trojan4balance.sh
+}
+
 start_menu(){
     clear
     green " ===================================="
@@ -460,6 +465,7 @@ start_menu(){
     red " 2. 卸载trojan"
     green " 3. 修复证书"
     green " 4. 安装BBR-PLUS加速4合一脚本"
+    green " 5. trojan负载均衡服务端搭建一键脚本
     blue " 0. 退出脚本"
     yellow " ======================================="
     echo
@@ -476,6 +482,9 @@ start_menu(){
     ;;
     4)
     bbr_boost_sh 
+    ;;
+    5)
+    trojan_boost_sh 
     ;;
     0)
     exit 1
