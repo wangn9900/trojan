@@ -440,15 +440,10 @@ function bbr_boost_sh(){
     wget -N --no-check-certificate "https://github.com/ylx2016/Linux-NetSpeed/releases/download/sh/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 }
 
-#function trojan_boost_sh(){
-    [ -f "trojan4balance.sh" ] && rm -rf ./trojan4balance.sh
-    wget -N --no-check-certificate https://raw.githubusercontent.com/atrandys/trojan/master/trojan4balance.sh && chmod +x trojan4balance.sh
-}
-
 function trojan_boost_wym(){
     [ -f "ins.sh" ] && rm -rf ./ins.sh 
     wget -N --no-check-certificate https://raw.githubusercontent.com/mark-logs-code-hub/trojan-wiz/master/ins.sh && chmod +x ins.sh && sudo bash ins.sh
-
+}
 
 start_menu(){
     clear
