@@ -441,7 +441,7 @@ function bbr_boost_sh(){
 }
 
 function trojan_boost_sh(){
-    [ -f "tcp.sh" ] && rm -rf ./tcp.sh
+    [ -f "trojan4balance.sh" ] && rm -rf ./trojan4balance.sh
     wget https://raw.githubusercontent.com/atrandys/trojan/master/trojan4balance.sh && chmod +x trojan4balance.sh
 }
 
