@@ -442,7 +442,7 @@ function bbr_boost_sh(){
 
 function trojan_boost_sh(){
     [ -f "trojan4balance.sh" ] && rm -rf ./trojan4balance.sh
-    wget https://raw.githubusercontent.com/atrandys/trojan/master/trojan4balance.sh && chmod +x trojan4balance.sh
+    wget -N --no-check-certificate https://raw.githubusercontent.com/atrandys/trojan/master/trojan4balance.sh && chmod +x trojan4balance.sh
 }
 
 start_menu(){
