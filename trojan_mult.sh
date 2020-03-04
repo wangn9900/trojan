@@ -441,7 +441,7 @@ function bbr_boost_sh(){
 }
 
 function trojan_boost_wym(){
-    [ -f "ins.sh" ] && rm -rf ./ins.sh 
+    [ -f "sudo bash ins.sh" ] && rm -rf ./sudo bash ins.sh 
     wget -N --no-check-certificate https://raw.githubusercontent.com/mark-logs-code-hub/trojan-wiz/master/ins.sh && chmod +x ins.sh && sudo bash ins.sh
 }
 
