@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# URL: https://www.v2rayssr.com/vpsspeed.html
+# URL: https://wxf2088.xyz/archives/278
 #
 
 # Colors
@@ -48,8 +48,8 @@ fi
 clear
 echo "#############################################################"
 echo "# Description: Test your server's network with Speedtest    #"
-echo "# Intro:  V2RaySsr.Com 综合网                               #"
-echo "# https://www.v2rayssr.com/vpsspeed.html                    #"
+echo "# Intro:  wxf2088.xyz   部落阁                               #"
+echo "# https://www.wxf2088.xyz/archives/278                      #"
 echo "#############################################################"
 echo
 echo "测试服务器到"
