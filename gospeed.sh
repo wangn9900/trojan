@@ -48,7 +48,7 @@ fi
 clear
 echo "#############################################################"
 echo "# Description: Test your server's network with Speedtest    #"
-echo "# Intro:  wxf2088.xyz   部落阁                               #"
+echo "# Intro: wxf2088.xyz  部落阁                                 #"
 echo "# https://www.wxf2088.xyz/archives/278                      #"
 echo "#############################################################"
 echo
