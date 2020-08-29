@@ -498,8 +498,7 @@ start_menu(){
     red " 2. 卸载trojan"
     green " 3. 升级trojan"
     green " 4. 修复证书"
-    green " 5. 安装Trojan-go
-    green " 6. 安装bbr加速
+    green " 5. 安装bbr加速
     blue " 0. 退出脚本"
     echo
     read -p "请输入数字 :" num
@@ -517,9 +516,6 @@ start_menu(){
     repair_cert 
     ;;
     5）
-    trojan_go
-    ;;
-    6）
     bbr_plus
     ;;
     0)
