@@ -477,16 +477,15 @@ function update_trojan(){
    
 }
 function bbr_plus(){
-[ -f "tcp.sh" ] && rm -rf ./tcp.sh
+    [ -f "tcp.sh" ] && rm -rf ./tcp.sh
     wget -N --no-check-certificate "https://github.com/ylx2016/Linux-NetSpeed/releases/download/sh/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 }
-function trojan_go(){
-    source <(curl -sL https://git.io/trojan-install)
+
 
 start_menu(){
     clear
     green " ======================================="
-    green " 介绍: 一键安装trojan /trojan-go    "
+    green " 介绍: 一键安装trojan   "
     green " 系统: centos7+/debian9+/ubuntu16.04+"
     green " 作者: A             "
     blue " 注意:"
